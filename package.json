@@ -1,0 +1,36 @@
+{
+  "name": "queryparser",
+  "version": "1.0.0",
+  "description": "Parser text expression to Query DSL format",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "elastic.js": "^1.2.0"
+  },
+  "devDependencies": {
+    "jison": "^0.4.17"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaroslavGaponov/queryparser.git"
+  },
+  "keywords": [
+    "elasticsearch",
+    "query",
+    "dsl",
+    "parser",
+    "expression",
+    "search"
+  ],
+  "author": "Yaroslav Gaponov <yaroslavgaponov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YaroslavGaponov/queryparser/issues"
+  },
+  "homepage": "https://github.com/YaroslavGaponov/queryparser#readme"
+}
